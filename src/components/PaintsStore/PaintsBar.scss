@@ -1,0 +1,47 @@
+@import '../../utils/_constants.scss';
+
+.paintsBar {
+  position: absolute;
+  top: 137px;
+  right: 25px;
+  z-index: 0;
+  padding: 25px;
+  margin:  5px;
+  opacity: 0.8;
+  color: $base_light_color;
+  background: $base_backgroundColor;
+  transition: all 200ms linear;
+  justify-content: space-around;
+  cursor: pointer;
+  .paintsScroll{
+    li{
+      margin-top: 25px;
+      cursor: pointer;
+      position: relative;
+    }
+    li:after{
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+    }
+    overflow-y: scroll;
+    h3{
+      color: $base_light_color;
+    }
+  }
+  .arrowsOrder{
+    position: absolute;
+    top: 69px;
+    z-index: 100;
+  }
+  .ant-checkbox-wrapper{
+    span{
+      color: #ffffff;
+    }
+  }
+}
+
+

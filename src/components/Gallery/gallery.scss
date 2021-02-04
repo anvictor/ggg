@@ -1,0 +1,100 @@
+.Room_Type {
+  // padding: 25px;
+  // margin: 5px;
+  // color: chocolate;
+  // min-height: 70px;
+  // background: #1e3426;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+}
+
+* {
+  // box-sizing: border-box;
+}
+
+
+html,
+body{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  // background: darkslategrey;
+}
+
+#root {
+  height: 100%;
+  // margin-top: 1%;
+  padding: 0;
+  // align-self: center;
+}
+
+.Skins {
+  position: absolute;
+  button{
+    color: rgb(255, 255, 255);
+  }
+}
+.SaveBtn{
+  position: absolute;
+  top: 25px;
+  color: rgb(0, 0, 0);
+}
+.ClearBtn{
+  position: absolute;
+  top: 52px;
+  color: rgb(0, 0, 0);
+}
+
+.tips{
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  padding: 5px;
+  color: #ffffff;
+  button{
+    margin: 2px;
+  }
+}
+
+.paintInfo{
+  transition-duration: .3s;
+  position: absolute;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  right: 0px;
+  opacity: 0;
+  color: beige;
+  padding: 5px;
+  border: solid 1px white;
+  background: #a0abb2;
+  box-shadow: 0px 10px 17px -7px rgba(0,0,0,0.75);
+  h3{
+    color: bisque;
+  }
+}
+
+.paintInfo{
+  &_active{
+    transition-duration: .2s;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    right: 0px;
+    opacity: 1;
+    color: beige;
+    padding: 5px;
+    border: solid 1px white;
+    background: #a0abb2;
+    box-shadow: 0px 10px 17px -7px rgba(0,0,0,0.75);
+    h3{
+      color: bisque;
+    }
+  }
+}
