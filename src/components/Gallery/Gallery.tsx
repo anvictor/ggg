@@ -863,6 +863,7 @@ const GalleryRoom: any = observer((props: any) => {
           paints={paintsFromLinks}
         /> 
         {/* injected comment */}
+        {/* NEXT injected comment */}
         <SaveBtn
           onChangeSensor = {()=>{changeSensor++}}
         />
