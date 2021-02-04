@@ -862,7 +862,7 @@ const GalleryRoom: any = observer((props: any) => {
           swapOrder ={swapOrder}
           paints={paintsFromLinks}
         /> 
-        
+        {/* injected comment */}
         <SaveBtn
           onChangeSensor = {()=>{changeSensor++}}
         />
