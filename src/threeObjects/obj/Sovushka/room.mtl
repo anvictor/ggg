@@ -1,0 +1,95 @@
+# Blender MTL File: 'room.blend'
+# Material Count: 9
+
+newmtl FlMtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\0Juju\\homeView src\\Blender Gallery\\src\\CeilingTextr.jpg
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl WallBlue
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.643588 1.000000 0.739434
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl WallPlinth
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.040454 0.039603 0.034773
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 3.150000
+d 1.000000
+illum 2
+
+newmtl doorTxtr
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\0Juju\\homeView src\\Blender Gallery\\src\\doorTexture0.jpg
+
+newmtl roofMtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\0Juju\\homeView src\\Blender Gallery\\src\\CeilingTextr.jpg
+
+newmtl walls
+Ns 220.117691
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.785405 0.313827
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns D:\\0Juju\\homeView src\\Blender Gallery\\src\\window2_beauty_element.jpg
+refl D:\\0Juju\\homeView src\\Blender Gallery\\src\\window2_beauty_element.jpg
+
+newmtl winMtl
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.261734 0.051506 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 8.549999
+d 1.000000
+illum 2

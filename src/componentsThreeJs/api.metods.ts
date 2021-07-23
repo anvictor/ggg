@@ -1,5 +1,8 @@
 import {userMode, choosed_room} from "../unitedStates/configState";
-import {paintsCanvasOnTheWalls} from '../threeObjects/obj/BrickGallery/paintsCanvasOnTheWalls';
+// import {paintsCanvasOnTheWalls} from '../threeObjects/obj/BrickGallery/paintsCanvasOnTheWalls';
+console.log(`choosed_room`, choosed_room)
+// const paintsCanvasOnTheWalls = require(`../threeObjects/obj/${choosed_room}/paintsCanvasOnTheWalls`).paintsCanvasOnTheWalls; 
+const paintsCanvasOnTheWalls = require(`../threeObjects/obj/Sovushka/paintsCanvasOnTheWalls`).paintsCanvasOnTheWalls; 
 const save = async(canvases:any, room:string)=>{
     const jsoned = JSON.stringify(canvases)
     localStorage.setItem(`gallery3d_${room}`,jsoned);

@@ -14,7 +14,7 @@ const noMapMessage = (mapName:string, name:string, ) => {
 }
 
 const logTxtr= (name: string, txtr: any)=>{
-    // console.log(name,txtr);
+    console.log(name,txtr);
 }
 
 export const skinTextures=(

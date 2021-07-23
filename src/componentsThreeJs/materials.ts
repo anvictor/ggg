@@ -32,15 +32,15 @@ export const skinMaterials = (
           case "walls":
             mtl.wireframe = wallsGlueSetMode
             
-            // mtl.emissive.b = 0.494
-            // mtl.emissive.g = 0.521
-            // mtl.emissive.r = 0.568
+            mtl.emissive.b = 0.5
+            mtl.emissive.g = 0.5
+            mtl.emissive.r = 0.5
             break;
             case "roof":
             console.log("mtl", mtl);
-            // mtl.emissive.b = 0.5
-            // mtl.emissive.g = 0.6
-            // mtl.emissive.r = 0.5
+            mtl.emissive.b = 0.3
+            mtl.emissive.g = 0.3
+            mtl.emissive.r = 0.3
             break;
           case "floor":
             // mtl.emissive.b = 0.45

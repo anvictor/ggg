@@ -1,7 +1,7 @@
-// const choosed_room: string = "G_1_12x16"
-const choosed_room: string = "BrickGallery"
+// const choosed_room: string = "Home4"
+const choosed_room: string = "Sovushka"
 
-const userMode: string = "admin" //["guest", "admin"]
+const userMode: string = "guest" //["guest", "admin"]
 const wallsGlueSetMode = false;
 const wallsLimitsSetMode = false;
 const contactShadowOpacity = 0.5

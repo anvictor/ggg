@@ -565,7 +565,7 @@ const GalleryRoom: any = observer((props: any) => {
         // Assignments to the 'objects' variable from inside React Hook useEffect avoid unnesessery re-render.
         // eslint-disable-next-line react-hooks/exhaustive-deps
         roomParts = RoomMesh.children
-        console.log("RoomMesh", RoomMesh);
+        console.log("roomParts", roomParts);
         
        // /**/////////////////////////////////////////////////////////////*****************************************************************************/ 
         roomParts.forEach((mesh:any) => {
@@ -594,7 +594,7 @@ const GalleryRoom: any = observer((props: any) => {
 
     camera.position.x = 0;
     camera.position.y = viewHeight;
-    camera.position.z = 200;
+    camera.position.z = 300;
     camera.rotation.x = 0;
 
     const handlePaintBarOutOfCanvasClick = (e: any) =>{
